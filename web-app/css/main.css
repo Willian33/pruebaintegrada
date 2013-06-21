@@ -1,0 +1,88 @@
+@import url(home.css);
+
+
+
+
+html * {
+	margin:0px;
+	padding: 0px;
+}
+
+body {
+	
+}
+
+#contenedorEncabezado {
+	height: 40px;
+	background-color: #fe7d00;
+	border: solid 1px #cccccc;
+	padding: 10px;
+}
+
+#imgIsologo {
+	width: 135px;
+	height: 45px;
+	float:left;
+	cursor: pointer;
+	margin-left: 190px;
+}
+
+#contenedorBuscar {
+	box-shadow: 0px 0px 5px #bbbbbb;
+	float:left;
+	margin-left: 50px;
+}
+
+#contenedorBuscar:hover {
+	box-shadow: 0px 0px 5px #9d9c9c;
+}
+
+#gtxtBuscar {
+	padding: 2px;
+	width: 485px;
+	height: 40px;
+	border: solid 1px #cccccc;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font: 16px "Century Gothic";
+	color: #1356a4;
+	float: left;
+}
+
+#btnBuscar {
+	background-image: url("../images/buttons/btnBuscar.png");
+	width: 43px;
+	height: 38px;
+	border: solid 1px #cccccc;
+	border-left: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	float: left;
+}
+
+#btnBuscar:hover {
+	background-image: url("../images/buttons/btnBuscarHover.png");
+	cursor: pointer;
+}
+
+#contenedorAcciones {
+	float:left;
+	margin-top: 10px;
+	margin-left: 190px;
+	font: 14px "Century Gothic";
+}
+
+#contenedorAcciones * {
+	text-decoration: none;
+	color: #1456a2;
+	border-left: solid 1px #1456a2;
+	padding: 5px 15px 5px 15px;
+}
+
+#contenedorAcciones *:first-child {
+	border-left: none;
+}
+
+#contenedorAcciones *:hover {
+	color: #0e3e75;
+}
